@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body{
+font-family: "Ubuntu", sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+/* Global */
+.container{
+   width:80%;
+  margin:auto;
+overflow:hidden;
+}
+footer{
+background-color:#00661a;
+text-align:center;
+padding:30px;
+margin-top:20px;
+color:#ffffff;
+}
+
+ul{
+margin;0;
+padding:0;
+}
+
+.button_1{
+height:38px;
+background:#000000;
+
+border:none;
+padding-left: 20px;
+padding-right: 20px;
+color:#ffffff;
+}
+
+.dark{
+background:#000000;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.darkp{
+background:#000000;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.dark5{
+background:#8B008B;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.dark2{
+background:#8B4513;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.dark1{
+background:	#006400;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+margin-right:0px;
+margin-left:0px;
+text-weight:bold;
+}
+.dark0{
+background:#0000FF;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+text-weight:bold;
+}
+.darkv{
+background:#000000;
+padding:15px;
+color:#ffffff;
+margin-top:10px;
+margin-bottom:10px;
+text-align:center;
+}
+
+
+
+
+
+
+/*Header*/
+header{
+background:#FF8C00;
+color:#ffffff;
+padding-top:10px;
+min-height:70px;
+border-bottom: 	#000000 4px ridge;
+}
+
+header a{
+color: #000000;
+text-decoration: none;
+text-transform:uppercase;
+font-size:16px;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0 0px 0 20px;
+}
+
+header #branding{
+float:left;
+}
+
+header #branding h1{
+margin:0;
+}
+header nav{
+float: right;
+margin-top:10px;
+}
+
+header .highlight, header .current a{
+color:#ffffff;
+font-weight:bold;
+margin-bottom:10px;
+}
+ 
+header a:hover{
+color:#ffffff;
+font-weight:bold;
+}
+/*Showcase*/
+#showcase{
+min-height:400px;
+background:url("dd.jpg") no-repeat;
+text-align:center;
+color:#ffffff;
+}
+ 
+#showcase h1{
+margin-top: 100px;
+font-size: 55px;
+margin-bottom: 10px;
+}
+
+#showcase p{
+font-size:20px;
+}
+
+/* Newletters*/
+#newsletter{
+padding:5px;
+color:#ffffff;
+background:#2F4F4F;
+
+}
+
+#newsletter h1{
+float:left;
+}
+
+#newsletter form{
+float: right;
+margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+padding:4px;
+height:25px;
+width:250px;
+}
+
+/*boxes*/
+
+#boxes{
+margin-top:20px;
+}
+
+#boxes .box{
+float:left;
+width:30%;
+text-align:center;
+padding:10px;
+
+}
+
+#boxes .box img{
+width:90px;
+}
+ 
+/*Sidebar*/
+
+aside#sidebar{
+float:left;
+width:50%;
+margin-top:2px;
+
+}
+aside#sidebarp{
+float:right;
+width:40%;
+margin-top:2px;
+
+
+}
+aside#sidebar1{
+float:left;
+width:50%;
+margin-top:10px;
+margin-right:10px;
+}
+
+aside#sidebarv{
+float:center;
+width:100%;
+margin-top:10px;
+margin-right:10px;
+}
+
+#sidebarv .darkv img{
+width:50%;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+width:90%;
+padding:10px;
+
+}
+aside#sidebar1 .quote input, aside#sidebar .quote textarea{
+width:90%;
+padding:10px;
+}
+
+
+
+aside#sidebar img{
+width:100%;}
+
+aside#sidebarp img{
+
+}
+aside#sidebarv img{
+width:100%;
+}
+
+
+article#main-col{
+float:right;
+width:40%;
+}
+
+/*Customer Reviews*/
+ul#services li{
+list-style: none;
+padding:20px;
+border:#cccccc solid 1px;
+margin-bottom:5px;
+background:#e6e6e6;
+}
+
+#newsletter h4{
+margin:10px 0 10px 0;
+text-align:center;
+color:#ffffff;
+font-size:50px;
+}
+
+#newsletter p{
+font-size:15px;
+
+
+}
+
+#newsletter img{
+width:300px;
+}
+
+
+
+
+
+
+
+/* Media Queries*/
+@media(max-width: 768px){
+header #branding, header nav, header nav li,#newsletter h1, #newletter form, #boxes .box, article#main-col, aside#sidebar, aside#sidebar1,aside#sidebarp,aside#sidebarv{
+float:none;
+text-align:center;
+width:100%;
+}
+header{
+padding-bottom:20px;
+}
+#showcase h1{
+margin-top:40px;
+}
+#newsletter button, .quote button{
+dispaly:block;
+width:100%;
+margin-bottom:5px;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+width:100%;
+margin-bottom:5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
